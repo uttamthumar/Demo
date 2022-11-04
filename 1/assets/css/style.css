@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+.font1{
+  font-family: 'Sen';
+}
+.bg-navbar{
+  background-color:  #232536;
+}
+.bg-navbar1{
+  background-color:#2e3040;
+}
+.btn-navbar{
+ color:  #232536;;
+}
+.display-font{
+  font-family: 'Sen';
+ 
+  font-size: 56px;
+ 
+}
+.text-color{
+  color: #FFD050;
+}
+
+
+
+.top-banner{
+    background-image: url('../image/Home/homepage.jpg');
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.gradiyant-banner{
+  background: radial-gradient(30.56% 76.04% at 74.58% 0%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%);
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.btn-homepage{
+  background-color: #FFD050;
+  color:#232536;
+ 
+}
+.btn-homepage:hover{
+  background-color: #EDC14A;
+  color:#232536;
+
+}
+.heading-h2{
+  font-family: 'Sen';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+
+}
+
+.heading2-h2{
+  font-family: 'Sen';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+
+}
+.heading-h3{
+  font-weight: 700;
+  font-size: 28px;
+  
+}
+.heading1-h3{
+  font-weight: 700;
+  font-size: 24px;
+ 
+}
+.text-gray{
+  color: #6D6E76;
+}
+.text-black{
+  color:#232536;
+}
+.bg-1:hover{
+  background-color:  #FBF6EA;;
+}
+.bg-3{
+  background-color:  #F4F0F8;
+}
+.box-1 {
+  background-color:#FFD050;
+  height: 23px;
+}
+.box-11 {
+  background-color:#FFD050;
+
+}
+.box-3:hover {
+  background-color:#FFD050;
+
+}
+.box-2{
+  background-color: #592EA9;
+  height: 23px;
+}
+.logo-bg{
+  background-color: #FBF6EA;
+}
+.box-4{
+  position: absolute;
+  background-repeat: no-repeat;
+
+}
+
+
+.heading-h1{
+  font-family: 'Sen';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  
+}
+.light-grey{
+  background: #F4F4F4;
+}
+.light-grey:hover{
+  background: #FBF6EA;
+}
+
+
+
+
+/* BLOG */
+.bg-blog{
+ background-color: #F4F0F8
+}
+.heading-h4{
+
+font-family: Sen;
+font-size: 28px;
+font-weight: 700;
+
+letter-spacing: -1px;
+text-align: left;
+
+}
+.black2{
+  color: #161722;
+}
+.Dark-Grey{
+  color: #4C4C4C;
+}
+
+/* About US */
+.box-img{
+  background-image: url('../image/blog/group\ img-1.png');
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    
+}
+
+.number-set{
+  bottom: 0;
+}
+ 
+.responsiv-h1{
+font-family: sans-serif;
+font-size: 56px;
+}
+.img-top{
+  top: 32%;
+}
+.img-set{
+  top: -12px;
+}
+/* CONTACT */
+.fontweight-900{
+  font-weight: 900;
+}
+.bg-contact{
+  background-color: #592EA9;
+}
+.textcolor{
+  color: white;
+  opacity: 40%;
+}

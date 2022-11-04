@@ -1,0 +1,122 @@
+@media screen and (max-width:1900px){
+    .heading-h3{
+        font-weight: 600;
+        font-size: 20px;
+        
+      }
+}
+@media screen and (max-width:1400px){
+    .heading-h1{
+        font-family: 'Sen';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 55px;
+      }
+      .heading-h3{
+        font-weight: 700;
+        font-size: 14px;
+        
+      }
+}
+@media screen and (max-width:1200px){
+    .heading-h1{
+        font-family: 'Sen';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 35px;
+      }
+      .heading-h2{
+        font-family: 'Sen';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 26px;
+      
+      }
+}
+@media screen and (max-width:1000px){
+   .line{
+    display: none;
+   }
+   .heading-h1{
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .responsiv-h1{
+    font-family: sans-serif;
+    font-size: 30px;
+    }
+  .img{
+     height: 100%;
+     width: auto;
+    }
+}
+@media screen and (max-width:700px){
+    .display-font{
+        font-size: 38px;
+        line-height: 45px;
+    }
+    .responsiv-h1{
+        font-family: sans-serif;
+        font-size: 24px;
+        }
+    
+}
+@media screen and (max-width:500px){
+    .heading1-h3{
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 28px; 
+      }
+      .heading-h2{
+        font-family: 'Sen';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 40px;
+      }
+      .heading-h4{
+
+        font-family: Sen;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 26px;
+        letter-spacing: -1px;
+        text-align: left;
+        
+        }
+}
+@media screen and (max-width:400px){
+    .display-font{
+        font-size: 25px;
+        line-height: 38px;
+    }
+    .heading-h1{
+        font-family: 'Sen';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 25px;
+      }
+}
+@media screen and (max-width:300px){
+    .display-font{
+        font-size: 15px;
+        line-height: 25px;
+    }
+}
+@media screen and (max-width:576px){
+    .serchbutton{
+        top:15px;
+        left:0px;
+      }
+}
+ 
+  @media (min-width: 766px) {
+    .img-set{
+    top: -64px;
+  }}
