@@ -15,6 +15,9 @@
 
 
   <!-- OWN CSS  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+  integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <link rel="stylesheet" href="./CSS/style.css">
   <link rel="stylesheet" href="./CSS/phone.css">
 </head>
@@ -24,10 +27,14 @@
   <div id="loading">
     <img id="loading-image" src="./image/Splash.jpg" alt="Loading..." />
   </div>
-  <section class="top-banner py-20  " >
+  <main>
+    <div class="containe">
+    
+    
+  <section class=" panel top-banner py-20  " >
     <div class="container-fluid">
-      <nav class=" navbar navbar-expand-lg navbar-light navbar-dark my-auto fixed-top my-0  " id="navbar">
-        <a class="navbar-brand" href="#"><img class="d-inline-block align-top h-32 ps-0 " src="./image/logo1.svg"
+      <nav class=" navbar navbar-expand-lg navbar-light navbar-dark my-auto fixed-top navbar-fixed-top my-0 top " id="navbar">
+        <a class="navbar-brand" href="#"><img class="d-inline-block align-top  ps-0  Logo" src="./image/logo1.svg"
             alt="logo"></a>
 
 
@@ -174,11 +181,6 @@
       </div>
     </div>
 
-    </div>
-
-
-
-
     <div class="container-fluid pt-32 ">
 
       <div class="slider">
@@ -250,16 +252,13 @@
       <i class="bi bi-instagram text-white "></i>
       <i class="bi bi-envelope-fill text-white d-flex  float-sm-end d-lg-none  mx-6"></i>
     </div>
-    </div>
-
-
-    </div>
-    <button class="btn button-white1 position-fixed" id="myBtn">
+  
+    <button class="btn button-white1 position-fixed  myBtn" id="myBtn">
       <img class="" src="./image/inbox1.png" alt="">
     </button>
 
-    <div id="myModal" class="modal">
-      <div class="modal-content">
+    <div id="myModal" class="modal myModal">
+      <div class="modal-content made">
         <div class="row p-4">
           <div class="font-regular text-30 text-white text-start primary-font">Infolettre
             <span class="close">&times;</span>
@@ -276,29 +275,36 @@
       </div>
 
     </div>
-    <button class="btn button-white1    position-fixed        mt-16"  id="myBtn1" >
-      <img class="" src="./image/message.png" alt="">
+    <button class="btn button-white1    position-fixed     myBtn  mt-16"  id="myBtn1" >
+      <img class="" src="./image/message.png" alt="" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal50">
     </button>
-    <!-- <div class="chatbox" id="chat-box">
-      <div class="row p-4">
-        <div class="font-regular text-30 text-white text-start">Infolettre
-          <span class="close">&times;</span>
-         </div>
-        <div class="chat">
-          <div class="d-flex">
-            <img src="./image/5535.png" class="rounded-circle" alt="Avatar" />
-            <p class="text-white border-1 bg-secondary p-3 rounded-4  ">Bonjour! Comment puis-je vous aider aujourd’hui?
-            </p>
+    <div class="modal " id="myModal50">
+      <div class="modal-dialog modal-dialog-scrollable ">
+          <div class="modal-content made1">
+  
+          
+              <div class="modal-header ">
+                  <h1 class="modal-title text-white">Chat message</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+  
+            
+              <div class="modal-body">
+                
+                  
+              </div>
+  
+              
+              <div class="modal-footer">
+                 <input type="text" z> <button type="button" class="btn btn-danger " data-bs-dismiss="modal">Sent</button>
+              </div>
+  
           </div>
-          <div>
-            <p class="text-white border-1 bg-secondary p-3 rounded-4 float-end mt-5">J’aimerais réserver ma visite en
-              famille au Pavillon le week-end prochain!</p>
-          </div>
-        </div>
       </div>
-    </div> -->
+  </div>
   </section>
-  <section class=" ">
+  <section class="panel ">
+    
     <div class="bg-3 ">
       <div class="bg-2">
         <div class="container-fluid ">
@@ -329,88 +335,167 @@
       </div>
     </div>
   </section>
-
-
-  <section class="mt-32 ">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-12">
-          <div class="float-start">
-            <h4 class="font-regular text-45 text-white primary-font">Galerie</h4>
-            <span class="background-line"></span>
-          </div>
-          <div class="float-end taxt-white  mt-sm-10 mt-0">
-            <span class=" btn float-left active on roboto-font text-white">Tout</span>>
-            <span class=" btn float-left on1 roboto-font text-white">Photos</span>>
-            <span class=" btn float-left on1 roboto-font text-white ">Photos</span>>
+ 
+    <section class="panel mt-32  ">
+      
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <div class="float-start">
+              <h4 class="font-regular text-45 text-white primary-font">Galerie</h4>
+              <span class="background-line"></span>
+            </div>
+            <div class="float-end taxt-white  mt-sm-10 mt-0">
+              <span class=" btn float-left active on roboto-font text-white">Tout</span>>
+              <span class=" btn float-left on1 roboto-font text-white">Photos</span>>
+              <span class=" btn float-left on1 roboto-font text-white ">Photos</span>>
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="wrapper ms-10 mt-10 ">
-      <div class="slider1 ">
+      <div class="wrapper ms-10 mt-10 ">
+        <div class="slider1   ">
 
-        <div>
-          <img class="" src="./image/eagle.png" alt="">
-          <div class="hstack">
+          <div>
 
-            <img class="d-lg-flex d-none" src="./image/picture.png" alt="">
-            <span class="vr-line hstack d-lg-flex d-none "></span>
-            <p class="text-white roboto-font text-18">Au cœur de la nature et sur les rives du lac Aylmer, le Pavillon de la Faune
-              présente une impressionnante collection d'animaux naturalisés.</p>
+            <div class="container__img-holder">
+              <img src="./image/eagle.png" alt="Image">
+            </div>
+          
+            <div class="hstack">
+              <img class="d-lg-flex d-none" src="./image/picture.png" alt="">
+              <span class="vr-line hstack d-lg-flex d-none "></span>
+              <p class="text-white roboto-font text-18">Au cœur de la nature et sur les rives du lac Aylmer, le Pavillon de la Faune
+                présente une impressionnante collection d'animaux naturalisés.</p>
+              </div>
           </div>
-        </div>
-        <div class="mx-2">
-          <div class="position-relative">
-            <img class="" src="./image/eagle1 (1).png" alt="">
-            <div class="play-icon-overlay">
-              <img class="home-play-button" src="./image/play.png" alt="">
+          <div class="mx-2">
+            <div class="position-relative">
+              <div class="container__img-holder">
+                <img src="./image/eagle1 (1).png" alt="Image">
+              </div>
+              <div class="play-icon-overlay">
+                <img class="home-play-button" src="./image/play.png" alt="">
+              </div>
+            </div>
+            <div class="hstack">
+
+              <img class="d-lg-flex d-none" src="./image/play button.png" alt="">
+
+
+              <span class="vr-line hstack d-lg-flex d-none "></span>
+              <p class="text-white roboto-font text-18">Au cœur de la nature et sur les rives du lac Aylmer, le Pavillon de la Faune
+                présente une impressionnante collection d'animaux naturalisés.</p>
             </div>
           </div>
-          <div class="hstack">
+          <div>
+            <div class="container__img-holder">
+              <img src="./image/eagle.png" alt="Image">
+            </div>
+            <div class="hstack ">
 
-            <img class="d-lg-flex d-none" src="./image/play button.png" alt="">
-
-
-            <span class="vr-line hstack d-lg-flex d-none "></span>
-            <p class="text-white roboto-font text-18">Au cœur de la nature et sur les rives du lac Aylmer, le Pavillon de la Faune
-              présente une impressionnante collection d'animaux naturalisés.</p>
+              <img class="d-lg-flex d-none" src="./image/picture.png" alt="">
+              <span class="vr-line hstack d-lg-flex d-none "></span>
+              <p class="text-white roboto-font text-18">Au cœur de la nature et sur les rives du lac Aylmer, le Pavillon de la Faune
+                présente une impressionnante collection d'animaux naturalisés.</p>
+            </div>
+           
           </div>
-        </div>
-        <div>
-          <img class="" src="./image/eagle.png" alt="">
-          <div class="hstack">
-
-            <img class="d-lg-flex d-none" src="./image/picture.png" alt="">
-            <span class="vr-line hstack d-lg-flex d-none "></span>
-            <p class="text-white roboto-font text-18">Au cœur de la nature et sur les rives du lac Aylmer, le Pavillon de la Faune
-              présente une impressionnante collection d'animaux naturalisés.</p>
-          </div>
-        </div>
-        <div class="mx-2">
-          <div class="position-relative">
-            <img class="" src="./image/eagle1 (1).png" alt="">
-            <div class="play-icon-overlay">
-              <img class="home-play-button" src="./image/play.png" alt="">
+          <div class="mx-2">
+            <div class="position-relative">
+              <div class="container__img-holder">
+                <img src="./image/eagle1 (1).png  " alt="Image">
+              </div>
+              <div class="play-icon-overlay">
+                <img class="home-play-button" src="./image/play.png" alt="">
+              </div>
+            </div>
+            <div class="hstack">
+              <img class="d-lg-flex d-none" src="./image/play button.png" alt="">
+              <span class="vr-line hstack d-lg-flex d-none "></span>
+              <p class="text-white roboto-font text-18">Au cœur de la nature et sur les rives du lac Aylmer, le Pavillon de la Faune
+                présente une impressionnante collection d'animaux naturalisés.</p>s
             </div>
           </div>
-          <div class="hstack">
-            <img class="d-lg-flex d-none" src="./image/play button.png" alt="">
-            <span class="vr-line hstack d-lg-flex d-none "></span>
-            <p class="text-white roboto-font text-18">Au cœur de la nature et sur les rives du lac Aylmer, le Pavillon de la Faune
-              présente une impressionnante collection d'animaux naturalisés.</p>
-          </div>
-        </div>
 
+        </div>
       </div>
+    <div class="container">
+      <div class="row img-popup overlap-40">
+        <img src="" alt="Popup Image">
+      <div class="col show text-white">  </div>
+      <div class="show text-white"></div>
+        <div class="close-btn">
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+       
+      </div>
+</div>
+      <!-- <div class="modal " id="myModal1">
+        <div class="modal-dialog ">
+            <div class="modal-content">
+
+            
+                <div class="modal-header ">
+                    <h1 class="modal-title text-white">Galerie</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+              
+                <div class="modal-body">
+                    <img src="./image/eagle.png" class="img-fluid w-full" alt="">
+                    <p class="text-white roboto-font text-18">Au cœur de la nature et sur les rives du lac Aylmer, le Pavillon de la Faune
+                      présente une impressionnante collection d'animaux naturalisés.</p>
+                </div>
+
+                
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger " data-bs-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
     </div>
-  </section>
+
+    <div class="modal " id="myModal2">
+      <div class="modal-dialog ">
+          <div class="modal-content">
+
+          
+              <div class="modal-header ">
+                  <h1 class="modal-title text-white">Galerie</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+
+            
+              <div class="modal-body">
+                <div class="position-relative">
+                  <img src="./image/eagle1 (1).png" class="img-fluid w-full" alt="">
+                  <div class="play-icon-overlay">
+                    <img class="home-play-button" src="./image/play.png" alt="">
+                  </div>
+                </div>
+                  <p class="text-white roboto-font text-18">Au cœur de la nature et sur les rives du lac Aylmer, le Pavillon de la Faune
+                    présente une impressionnante collection d'animaux naturalisés.</p>
+              </div>
+
+              
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-danger " data-bs-dismiss="modal">Close</button>
+              </div>
+
+          </div>
+      </div>
+  </div> -->
+    </section>
 
 
 
-  <section class="mt-16  ">
-    <div class="container-fluid ">
+  <section class=" panel wrapper ms-10 mt-32">
+
+    <div class="container-fluid  ">
       <div class="row">
         <div class="col-12">
           <div class="float-start">
@@ -426,9 +511,8 @@
         </div>
       </div>
     </div>
-  </section>
-  <section class="wrapper ms-10 mt-10 ">
-    <div class="slider-2">
+  
+    <div class="slider-2 mt-10">
       <div class="card mx-4">
         <img src="./image/img-1.png" class="card-img-top" alt="...">
         <div class="card1 bg-color p-6">
@@ -481,7 +565,7 @@
 
   </section>
 
-  <section class=" bg-footer position-relative  mt-32 ">
+  <section class=" panel bg-footer position-relative  mt-32 ">
 
     <div class="container-fluid  ">
       <div class="row  ">
@@ -528,21 +612,28 @@
     </div>
 
 
-    </div>
+  
 
-    </div>
+  
   </section>
 
+    </div>
+  </main>
 
+  <div class="text1"> 
+  
+  
+</div>
   
 
 
 
   <!-- JavaScript Bundle with Popper -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
     integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="./snap-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-lightbox/0.2.12/slick-lightbox.min.js"></script>
+    
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 
